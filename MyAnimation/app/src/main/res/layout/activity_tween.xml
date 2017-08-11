@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lukemi.myanimation.TweenActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/ll_rignt"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="@dimen/dp40"
+            android:layout_height="@dimen/dp40"
+            android:src="@drawable/pvs"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_rignt"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginEnd="@dimen/dp20"
+        android:layout_marginRight="@dimen/dp20"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="xml实现"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/xml_alpha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:padding="@dimen/dp5"
+            android:text="xml_alpha"
+            android:textColor="@color/selector_tv_press"/>
+
+        <TextView
+            android:id="@+id/xml_rotate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:padding="@dimen/dp5"
+            android:text="xml_rotate"
+            android:textColor="@color/selector_tv_press"/>
+
+        <TextView
+            android:id="@+id/xml_translate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:padding="@dimen/dp5"
+            android:text="xml_translate"
+            android:textColor="@color/selector_tv_press"/>
+
+        <TextView
+            android:id="@+id/xml_scale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:padding="@dimen/dp5"
+            android:text="xml_scale"
+            android:textColor="@color/selector_tv_press"/>
+
+        <TextView
+            android:id="@+id/xml_set"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:padding="@dimen/dp5"
+            android:text="xml_set"
+            android:textColor="@color/selector_tv_press"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="JAVA实现"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/java_alpha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:padding="@dimen/dp5"
+            android:text="java_alpha"
+            android:textColor="@color/selector_tv_press"/>
+
+        <TextView
+            android:id="@+id/java_rotate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:padding="@dimen/dp5"
+            android:text="java_rotate"
+            android:textColor="@color/selector_tv_press"/>
+
+        <TextView
+            android:id="@+id/java_translate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:padding="@dimen/dp5"
+            android:text="java_translate"
+            android:textColor="@color/selector_tv_press"/>
+
+        <TextView
+            android:id="@+id/java_scale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:padding="@dimen/dp5"
+            android:text="java_scale"
+            android:textColor="@color/selector_tv_press"/>
+
+        <TextView
+            android:id="@+id/java_set"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:padding="@dimen/dp5"
+            android:text="java_set"
+            android:textColor="@color/selector_tv_press"/>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
