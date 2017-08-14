@@ -7,5 +7,5 @@
        android:pivotX="50.0"
        android:pivotY="50.0"
        android:duration="1000"
-       android:fillAfter="true"
+       android:fillAfter="false"
     />

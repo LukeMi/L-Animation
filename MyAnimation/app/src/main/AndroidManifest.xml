@@ -10,7 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity android:name=".MainActivity">
-
         </activity>
         <activity android:name=".TweenActivity">
             <intent-filter>
@@ -18,6 +17,9 @@
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+        </activity>
+        <activity android:name=".EnterAnimationActivity">
+
         </activity>
     </application>
 
